@@ -12,7 +12,7 @@ int getNum()
   return n;
 }
 
-std::vector<int> doubleRow(std::vector<int> data)
+std::vector<int> doubleRow(const std::vector<int>& data)
 {
   std::vector<int> preres(data.size());
   std::vector<int> res(data.size());
